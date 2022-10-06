@@ -1,0 +1,39 @@
+:root{
+    --blue: #4dc9ff;
+}
+
+
+.headerBlueasy{
+    background-image: url(images/HERO.jpg);
+    height: 100vh;
+}
+.topbar{
+    background: rgba(0,0,0,.5);
+    height: 10vh;
+}
+
+.blueasyButton{
+    font-size: 2rem !important;
+    text-transform: uppercase;
+}
+.spanTitle{
+    color: var(--blue);
+}
+.buttonTopbar{
+    text-transform: uppercase;
+    font-size: 1.3rem !important;
+}
+.buttonHome{
+    border: var(--blue) 4px solid !important;
+    border-radius: 0 !important;
+}
+
+.boxh1{
+    height: 90vh;
+    width: fit-content;
+}
+.h1Blueasy{
+    text-transform: uppercase;
+    display: inline;
+    background: rgba(0,0,0,.5);
+}
