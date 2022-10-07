@@ -1,7 +1,12 @@
 :root{
     --blue: #4dc9ff;
 }
-
+.titreWhite{
+    text-transform: uppercase;
+}
+.spanWhite{
+    text-decoration: underline;
+}
 
 .headerBlueasy{
     background-image: url(images/HERO.jpg);
@@ -50,9 +55,6 @@
     padding-top: 80px;
     padding-bottom: 80px;
 }
-.spanServices{
-    text-decoration: underline;
-}
 .h3CartesServices{
     text-transform: uppercase;
 }
@@ -66,12 +68,7 @@
 
 
 
-.titrePortfolio{
-    text-transform: uppercase;
-}
-.spanPortfolio{
-    text-decoration: underline;
-}
+
 
 
 .boiteImage{
@@ -127,9 +124,6 @@
     text-transform: uppercase;
     padding-top: 70px;
 }
-.spanVideo{
-    text-decoration: underline;
-}
 .boutonVideo{
     text-transform: uppercase;
     border: 3px black solid !important;
@@ -147,12 +141,100 @@
 .twitter{
     background-image: url("images/fondservices.png");
 }
-.titreTwitter{
-    text-transform: uppercase;
-}
-.spanTwitter{
-    text-decoration: underline;
-}
 .texteTwitter{
     padding-bottom: 80px;
+}
+
+
+
+
+.john{
+    background-color: #8EB4D7;
+}
+.titreJohn{
+    text-transform: uppercase;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.texteJohn{
+    font-size: 1.2rem;
+}
+
+
+.divTitreTestimonial{
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.titreTestimonial{
+    text-transform: uppercase;
+}
+.texteTestimonial{
+    font-size: 1.3rem;
+}
+.walterWhite{
+    color: var(--blue);
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-bottom: 70px;
+}
+
+
+.contact{
+    background-color: #8EB4D7;
+}
+.titreContact{
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    padding-top: 70px;
+}
+
+label{
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.3rem;
+    padding-top: 20px;
+
+}
+.bgRemove{
+    background: transparent !important;
+}
+
+.boutonContact{
+    background-color: var(--blue) !important;
+    color: white !important;
+    text-transform: uppercase;
+    padding: 15px 120px !important;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 1.4rem !important;
+}
+
+
+.footerBlueasy{
+    background-color: #8EB4D7;
+}
+.footbar{
+    background: rgba(0,0,0,.5);
+    height: 20vh;
+}
+.boutonFootbar{
+    text-transform: uppercase;
+    font-size: 1.4rem!important;
+    color: darkgrey !important;
+    font-weight: bold!important;
+}
+.hrFootbar{
+    height: 40px !important;
+    width: 4px !important;
+    opacity: 1!important;
+    background-color: darkgray!important;
+    margin-left: 10px !important;
+    margin-right: 10px!important;
+}
+.copyrgihtFootbar{
+    text-transform: uppercase;
+    font-size: 1.4rem!important;
+    color: darkgrey !important;
+    font-weight: bold!important;
+    margin: 0!important;
 }
